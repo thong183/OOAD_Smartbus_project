@@ -1,10 +1,10 @@
 <?php
-    require('C:/xampp/htdocs/LayoutSMARTBUS/model/dbContext.php');
+    include ('C:/xampp/htdocs/LayoutSMARTBUS/model/dbContext.php');
     $db = new Context();
     $db -> connect();
 
-    if (isset($_GET('controller'))){
-        $controller = $_GET('controller');
+    if (isset($_GET['controller'])){
+        $controller = $_GET['controller'];
     }else
     {
         $controller = "";
