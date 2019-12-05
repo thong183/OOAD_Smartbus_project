@@ -9,7 +9,6 @@ body {
     top: 0;
     transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
     background-color: #3578E5;
-    color: white;
 }
 
 #header-content ul li {
@@ -149,11 +148,12 @@ main {
     margin-left: 700px;
     width: 500px;
     font-size: 40px;
-    color: rgb(20, 39, 70);
+    color: white;
 }
 
 #bus-guide p {
     font-size: 20px;
+    color: white;
 }
 
 .list-news {
@@ -168,7 +168,7 @@ main {
 
 .title-news a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 25px;
 }
 
@@ -178,6 +178,7 @@ main {
     margin-left: 220px;
     margin-top: 40px;
     opacity: 60%;
+    color: white;
 }
 
 .snippet {
